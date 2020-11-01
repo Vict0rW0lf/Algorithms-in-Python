@@ -1,6 +1,6 @@
 # O(n)
 
-def firstUniqueCharacter(txt):
+def first_unique_character(txt):
     letters = {}
 
     for letter in txt:
@@ -17,4 +17,4 @@ def firstUniqueCharacter(txt):
 
 txt = "aaabcccdeeef"
 
-print(firstUniqueCharacter(txt))
+print(first_unique_character(txt))
