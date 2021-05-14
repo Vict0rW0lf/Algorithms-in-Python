@@ -1,5 +1,5 @@
 #O(n) where N is the size of the String
-def valid_parenthesis(txt):
+def valid_parentheses(txt):
   stack = []
   types = {"}": "{", ")": "(", "]": "["}
   
