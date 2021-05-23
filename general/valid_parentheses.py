@@ -11,3 +11,5 @@ def valid_parenthesis(txt):
        return False
 
   return len(stack) == 0
+
+print(valid_parenthesis("((()(())))"))
