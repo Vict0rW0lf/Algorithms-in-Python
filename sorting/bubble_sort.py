@@ -1,3 +1,5 @@
+import util
+
 def bubble_sort(arr, length):
 
     for i in range(length):
@@ -8,7 +10,7 @@ def bubble_sort(arr, length):
                 arr[j + 1] = temp
 
 
-arr = [10, 200, 0, -2, 900, 67, 5, 1, 70]
+arr = util.randomized_arr
 
 bubble_sort(arr, len(arr))
 
